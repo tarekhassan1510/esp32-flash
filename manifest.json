@@ -1,12 +1,11 @@
-{
-  "name": "ESP32 Marauder",
-  "version": "1.8.4",
-  "builds": [
-    {
-      "chipFamily": "ESP32",
-      "parts": [
-        { "path": "esp32_marauder_v1_8_4_20250806_v6_1.bin", "offset": 0 }
-      ]
-    }
-  ]
-}
+"builds": [
+  {
+    "chipFamily": "ESP32",
+    "parts": [
+      { "path": "esp32_marauder_v1_8_4_20250806_v6_1.bin", "offset": 65536 }
+    ],
+    "flashSize": "4MB",
+    "flashMode": "dio",
+    "baudRate": 115200
+  }
+]
